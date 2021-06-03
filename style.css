@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Text', sans-serif;
+}
+header{
+    width:100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0.9),rgba(0,0,0,0.2)), url('wp2337115.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+header .usr{
+    margin-top:20px;
+    margin-left: 30px;
+    color:white;
+    font-weight: bold;
+}
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear:both;
+}
+.mainrow{
+    max-width: 1220px;
+    margin:auto;
+}
+.clearfix img{
+    border-radius: 70px;
+    border:3px solid brown;
+   
+}
+
+.logo{
+    height: 100px;
+    width:80px;
+
+    margin-top: 100px;
+    margin-left:40px;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 60px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;   
+    font-weight: bold;
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(165, 42, 42, 0.747);
+    padding: 4px 0px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+.main-nav li a:hover{
+    background-color: rgba(165, 42, 42, 0.747);
+    border-radius: 10px;
+}
+.center-div{
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.center-div h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.center-div h3{
+    font-size: 25px;
+    text-align:center;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.center-div button{
+    padding: 10px 50px;
+    margin:15px 130px;
+    border:2px solid brown;
+    background-color: rgba(165, 42, 42, 0.582);
+    border-radius: 20px;
+    font-size: 18px;
+}
+.center-div button a{
+    color: white;
+    text-decoration: none;
+}
+.center-img{
+    width:300px;
+    height:320px ;
+}
+.packages h1{
+    font-size: 40px;
+    padding: 20px 0px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.packages h3{
+    font-weight: bold;
+    
+}
+.packages p{
+    color:rgba(0, 0, 0, 0.5);
+    text-align:center;
+}
+.packages button{
+    padding: 7px 30px;
+    margin-bottom: 40px;
+    border:2px solid brown;
+    background-color: rgba(165, 42, 42, 0.555);
+    color:rgb(18, 58, 58);
+    border-radius: 10px;
+}
+
+.services{
+    background-color: rgba(245, 222, 179, 0.555);
+}
+.services h1{
+    font-size: 40px;
+    padding: 20px 0px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.servic p{
+    font-size: 15px;
+}
+.services span{
+    color:rgb(255, 102, 0);
+}
+.servic{
+    margin-bottom: 40px;
+}
+.last-three{
+    margin-bottom: 100px;
+}
+.imgset{
+    font-size: 50px;
+    color:rgb(255, 102, 0);
+}
+.about h1{
+    font-size: 40px;
+    padding: 20px 0px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.about p{
+    font-size: 18px;
+    margin:20px 40px;
+}
+.about span{
+    color:rgb(255, 102, 0);
+}
+.about .last{
+    margin-bottom: 60px;
+}
+
+.contact{
+    background-color: rgba(165, 42, 42, 0.308);
+    position: relative;
+}
+.contact form{
+    width:400px;
+    height: 450px;
+    background-color: rgba(0, 139, 42, 0.404);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translatex(-50%);
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.contact form h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+#us{
+    color:rgb(255, 102, 0);
+}
+.contact form input[type=text]{
+    margin-bottom:10px;
+    margin-left: 30px;
+    background: transparent;
+    border:none;
+    border-bottom: 2px solid rgba(192, 13, 67, 0.829);
+    width:300px;
+}
+.contact form label{
+    margin-left:30px;
+}
+.contact form input[type=submit]{
+    margin-left: 30px;
+    margin:10px 0px 40px 30px;
+    border:2px solid green;
+    background-color:rgba(192, 13, 67, 0.829) ;
+    color:white;
+    padding:7px 20px;
+}
+.contact-last{
+    margin-top:500px;
+    font-size: 16px;
+}
+.contact-last h2{
+    margin-left: 10px;
+}
+.contact-last p,label{
+    margin:5px 40px;
+}
+.contact-last ul{
+    margin-left: 60px;
+}
+.contact-last-right{
+    float: right;
+    margin-top:-225px;
+    color: white;
+    margin-right: 400px;
+    font-size: 16px;
+}
+.contact-last-right p .fa{
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+.footer{
+    text-align: center;
+    font-size: 16px;
+    background-color: rgba(0, 0, 255, 0.541);
+    color: white;
+}
+
+@media only screen and(max-width:1180px){
+    .logo{
+        margin-left:40px;
+    }   
+    
+}
